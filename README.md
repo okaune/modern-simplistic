@@ -1,13 +1,13 @@
 # Modern Simplistic
 
-TODO:
+Backlog:
 ---------
-* Make blog (using wordpress in subfolder)
-* Make fully responsive
+* Make blog
 
-NEEDS FIXING:
+Todo:
+---------
+* Make responsive
+
+Bugs:
 ---------
 * Height of #image-container is 0
-
-PROBLEMS:
----------
