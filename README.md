@@ -11,3 +11,9 @@ Todo:
 Bugs:
 ---------
 * Height of #image-container is 0
+
+Under arbeid:
+---------
+
+Til testing:
+---------
