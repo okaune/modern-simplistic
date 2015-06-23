@@ -1,27 +1,28 @@
 // SVG styles
 footer {
 	background: $lightgray;
-	min-height: 50px;
+	min-height: 70px;
 	clear: both;
+	border-top: 1px solid #000000;
 	.wrapper {
 		width: 100%;
 		max-width: 800px;
 		margin: 0 auto;
+		padding: 20px 0;
 	}
 	.contact {
-		width: 50%;
-		float: left;
+		width: 100%;
 		line-height: 50px;
 		font-size: 14px;
+		text-align: center;
 	}
 	.social {
-		width: 50%;
-		float: right;
+		width: 100%;
 		padding: 9px 0;
+		text-align: center;
 		.icon-facebook-square, .icon-twitter-square, .icon-google-plus-square {
 			font-size: 32px; // works because "width" & "height" were set using em units
 			color: black; // works because "fill" was set to "currentColor"
-			float: right;
 			margin: 0 5px;
 		}
 		.icon-facebook-square:hover {

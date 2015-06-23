@@ -30,22 +30,22 @@
 					<h4>Utdanning</h4>
 				</aside>
 				<article>
-					<h3><a href="#">Romerike folkehøgskole</a><div class="date">Nå</div></h3>
+					<h3><a href="http://romerike.fhs.no/" target="_blank">Romerike folkehøgskole</a><div class="date">Nå</div></h3>
 					<div class="role"><b>Folkehøgskole</b></div>
 					<p>Skriv om det her</p>
 				</article>
 				<article>
-					<h3><a href="http://www.nadderud.vgs.no/index.php">Nadderud videregående skole</a><div class="date">2014</div></h3>
+					<h3><a href="http://www.nadderud.vgs.no/index.php" target="_blank">Nadderud videregående skole</a><div class="date">2014</div></h3>
 					<div class="role"><b>Videregående skole</b></div>
 					<p>Skriv om det her</p>
 				</article>
 				<article>
-					<h3><a href="http://www.hugs.no/">Hundsund ungdomsskole</a><div class="date">2011</div></h3>
+					<h3><a href="http://www.hugs.no/" target="_blank">Hundsund ungdomsskole</a><div class="date">2011</div></h3>
 					<div class="role"><b>Ungdomsskole</b></div>
 					<p>Skriv om det her</p>
 				</article>
 				<article>
-					<h3><a href="#">Lysaker skole</a><div class="date">2008</div></h3>
+					<h3><a href="http://www.lysaker.skole.no/" target="_blank">Lysaker skole</a><div class="date">2008</div></h3>
 					<div class="role"><b>Barneskole</b></div>
 					<p>Skriv om det her</p>
 				</article>
@@ -55,27 +55,27 @@
 					<h4>Erfaring</h4>
 				</aside>
 				<article>
-					<h3><a href="#">Ludens reklamebyrå AS</a><div class="date">Mai 2015 - Juni 2015</div></h3>
+					<h3><a href="http://www.ludensreklame.no/" target="_blank">Ludens reklamebyrå AS</a><div class="date">Mai 2015 - Juni 2015</div></h3>
 					<div class="role"><b>Sommerjobb</b></div>
 					<p>Laget 90 nettsiderapporter med statistikk fra Google Analytics og optimaliseringsmuligheter for å få flere besøk på sidene.</p>
 				</article>
 				<article>
-					<h3><a href="#">Asker Kulturhus</a><div class="date">21. mai 2015- 30. mai 2015</div></h3>
+					<h3><a href="https://askerkulturhus.no/" target="_blank">Asker Kulturhus</a><div class="date">21. mai 2015- 30. mai 2015</div></h3>
 					<div class="role"><b>Asker kulturfestival</b></div>
-					<p>Lyssetting av nattevandringsløype rundt Semsvann, vakt på Olabilløp og ...</p>
+					<p>Lyssetting av nattevandringsløype rundt Semsvann.</p>
 				</article>
 				<article>
-					<h3><a href="#">Ludens reklamebyrå AS</a><div class="date">September 2012 - Desember 2013</div></h3>
+					<h3><a href="http://www.ludensreklame.no/" target="_blank">Ludens reklamebyrå AS</a><div class="date">September 2012 - Desember 2013</div></h3>
 					<div class="role"><b>Web designer (deltid)</b></div>
 					<p>Skriv om det her</p>
 				</article>
 				<article>
-					<h3><a href="#">Ludens Reklamebyrå AS</a><div class="date">August 2012</div></h3>
+					<h3><a href="http://www.ludensreklame.no/" target="_blank">Ludens Reklamebyrå AS</a><div class="date">August 2012</div></h3>
 					<div class="role"><b>Sommerjobb</b></div>
 					<p>Skriv om det her</p>
 				</article>
 				<article>
-					<h3><a href="#">Volvat Medisinske Senter AS</a><div class="date">Sommer 2009</div></h3>
+					<h3><a href="https://www.volvat.no/" target="_blank">Volvat Medisinske Senter AS</a><div class="date">Sommer 2009</div></h3>
 					<div class="role"><b>Sommerjobb</b></div>
 					<p>Skriv om det her</p>
 				</article>
