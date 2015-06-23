@@ -6,7 +6,7 @@ Backlog:
 	* Legg inn hva den skal inneholde
 * Implement Zurb Foundation
 * Make elements into modules, and separate more code to modules (eg. education)
-	* Use naming "module_<module_name>"
+	* Use naming "module_(module_name)"
 
 Todo:
 ---------
