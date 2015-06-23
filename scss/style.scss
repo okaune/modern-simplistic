@@ -1,0 +1,141 @@
+@import 'normalize';
+@import 'base';
+
+$white: #fff;
+$black: #000;
+$gray: #888;
+$lightgray: #bfbfbf;
+$primary_color: orange;
+$secondary_color: #3f3f3f;
+
+$ls: 0.1em;
+
+* {
+	transition: all 0.2s;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+.primarytextcolor {
+	color: $primary_color;
+}
+
+// Buttons
+.more {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 10px 20px;
+	background: $primary_color;
+	width: 75px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: $white;
+	&:hover {
+		background: $secondary_color;
+	}
+}
+
+header {
+	width: 100%;
+	background: $white;
+	overflow: hidden;
+	position: fixed;
+	z-index: 99;
+	transition: box-shadow .5s;
+	a {
+		@include text(1.3em, 800, $black);
+		text-align: center;
+		text-transform: uppercase;
+		height: 100%;
+		display: block;
+		line-height: 90px;
+		transition: line-height .5s;
+	}
+}
+
+#intro {
+	float: left;
+	width: 100%;
+	height: 100vh;
+	min-height: 750px;
+	padding-top: 10%;
+	background-size: cover;
+	background: url("/img/background-large.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-color: #c0c0c0;
+	h1 {
+		@include text(2.1em, 300, $white);
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+.dropshadow {
+	text-shadow: black 1px 1px 10px;
+}
+
+.front-menu {
+	max-width: 600px;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	div {
+		@include text(1.2em, 800, $white);
+		padding: 30px 0;
+		width: 200px;
+		background: $primary_color;
+		display: block;
+		float: left;
+		margin: 0 50px;
+		text-transform: uppercase;
+		&:hover {
+			background: $secondary_color;
+		}
+	}
+	.blog {
+		
+	}
+	.gallery {
+		
+	}
+	.icon {
+		width: 200px;
+		
+	}
+}
+
+#profile {
+	float: left;
+	width: 100%;
+	padding-top: 90px;
+	margin-top: -90px;
+}
+
+.wide-container {
+	width: 1130px;
+	padding: 0 20px;
+	margin: 0px auto;
+}
+
+.justified-gallery {
+	overflow: visible !important;
+	top: 90px;
+}
+
+@import 'resume';
+@import 'footer';

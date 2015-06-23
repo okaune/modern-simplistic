@@ -1,0 +1,57 @@
+.resume {
+	max-width: 800px;
+	margin: 0 auto;
+	
+	section {
+		display: block;
+		width: 100%;
+		float: left;
+		margin-top: 25px;
+		padding: 0;
+	}
+
+	aside {
+		float: left;
+		width: 15%;
+		color: $gray;
+		text-transform: uppercase;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		line-height: 15px;
+		h4 {
+			font-size: 1em;
+		}
+	}
+
+	article {
+		display: block;
+		float: right;
+		width: 85%;
+		margin-bottom: 10px;
+		h3 {
+			@include text(1.5em, 600, $primary_color);
+			line-height: 15px;
+			// padding: 5px 5px 5px 0;
+			// margin: -5px 0 15px 0;
+			a {
+				@include text(1em, 500, $primary_color);
+				text-decoration: none;
+				line-height: 0.7em;
+			}
+			.date {
+				@include text(0.8em, "", $gray);
+				margin-right: 20px;
+				padding: 0;
+				float: right;
+			}
+		}
+		.role b {
+			@include text(1.2em, 600, #333);
+		}
+		p {
+			line-height: 1.5em;
+			@include text(1.2em, "", #555);
+		}
+	}
+}

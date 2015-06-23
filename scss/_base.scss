@@ -1,0 +1,43 @@
+// Colors
+$white: #fff;
+$black: #000;
+$gray: #888;
+$primary_color: orange;
+$secondary_color: #3f3f3f;
+
+// Text and font
+@mixin text($size, $weight:"", $color:"") {
+	font-size: $size;
+	@if $color != "" {
+		font-weight: $weight;
+	}
+	@if $color != "" {
+		color: $color;
+	}
+}
+
+html {
+	font-size: 13px;
+	font-family: Helvetica Neue, sans-serif;
+	letter-spacing: 0.1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	@include text(2em, 400)
+}
