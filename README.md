@@ -12,8 +12,8 @@ Bugs:
 ---------
 * Height of #image-container is 0
 
-Under arbeid:
+In the works:
 ---------
 
-Til testing:
+For testing:
 ---------
