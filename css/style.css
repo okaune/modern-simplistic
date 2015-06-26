@@ -233,13 +233,13 @@ body {
   margin-top: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff; }
+  color: #ffffff; }
   .more:hover {
     background: #3f3f3f; }
 
 header {
   width: 100%;
-  background: #fff;
+  background: #ffffff;
   overflow: hidden;
   position: fixed;
   z-index: 99;
@@ -248,7 +248,7 @@ header {
   header a {
     font-size: 1.3em;
     font-weight: 800;
-    color: #000;
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
     height: 100%;
@@ -266,7 +266,7 @@ header {
   #intro h1 {
     font-size: 2.1em;
     font-weight: 300;
-    color: #fff;
+    color: #ffffff;
     max-width: 600px;
     margin: 0 auto;
     text-align: center; }
@@ -281,7 +281,7 @@ header {
   .front-menu div {
     font-size: 1.2em;
     font-weight: 800;
-    color: #fff;
+    color: #ffffff;
     padding: 30px 0;
     width: 200px;
     background: #e69400;
@@ -297,7 +297,7 @@ header {
 #profile {
   float: left;
   width: 100%;
-  background: #ffffff; }
+  background: rgba(255, 255, 255, 0.9); }
 
 #profile:before {
   display: block;
@@ -327,7 +327,7 @@ header {
   .resume aside {
     float: left;
     width: 15%;
-    color: #888;
+    color: #888888;
     text-transform: uppercase;
     text-align: left;
     margin: 0;
@@ -354,7 +354,7 @@ header {
       .resume article h3 .date {
         font-size: 0.8em;
         font-weight: "";
-        color: #888;
+        color: #888888;
         margin-right: 20px;
         padding: 0;
         float: right; }
@@ -369,10 +369,10 @@ header {
       color: #555; }
 
 footer {
-  background: #bfbfbf;
   min-height: 70px;
   clear: both;
-  border-top: 1px solid #000000; }
+  border-top: 1px solid #000000;
+  color: #ffffff; }
   footer .wrapper {
     width: 100%;
     max-width: 800px;
@@ -389,7 +389,7 @@ footer {
     text-align: center; }
     footer .social .icon-facebook-square, footer .social .icon-twitter-square, footer .social .icon-google-plus-square {
       font-size: 32px;
-      color: black;
+      color: #ffffff;
       margin: 0 5px; }
     footer .social .icon-facebook-square:hover {
       color: #3b5998; }
