@@ -1,9 +1,9 @@
 // SVG styles
 footer {
-	background: $lightgray;
 	min-height: 70px;
 	clear: both;
 	border-top: 1px solid #000000;
+	color: $white;
 	.wrapper {
 		width: 100%;
 		max-width: 800px;
@@ -22,7 +22,7 @@ footer {
 		text-align: center;
 		.icon-facebook-square, .icon-twitter-square, .icon-google-plus-square {
 			font-size: 32px; // works because "width" & "height" were set using em units
-			color: black; // works because "fill" was set to "currentColor"
+			color: $white; // works because "fill" was set to "currentColor"
 			margin: 0 5px;
 		}
 		.icon-facebook-square:hover {

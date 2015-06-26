@@ -1,16 +1,27 @@
 $(document).ready(function(){
 
 	// Animated scroll on hash linking
+	
 	var $root = $('html, body');
-	$('a').click(function() {
-		var href = $.attr(this, 'href');
-		$root.animate({
-			scrollTop: $(href).offset().top
-		}, 500, function () {
-			window.location.hash = href;
-		});
-		return false;
+	// Get the height of the header
+	var headerHeight = $("header.mainheader").height();
+	
+	// Attach the click event
+	$('a.more').click(function(e) {
+	    e.preventDefault();
+
+	    var target = $(this).attr("href"); //Get the target
+	    var scrollToPosition = $(target).offset().top - headerHeight;
+
+	    $root.animate({ scrollTop: scrollToPosition }, 500, function(){
+	        window.location.hash = "" + target;
+	        // This hash change will jump the page to the top of the div with the same id
+	        // so we need to force the page to back to the end of the animation
+	        $root.animate({ scrollTop: scrollToPosition }, 0);
+	    });
 	});
+
+	
 
 	// PARRALAX
 	// Cache the Window object
@@ -39,7 +50,7 @@ $(document).ready(function(){
 	//CSS CHANGE ON SCROLL POSITION
 	function scroll_style() {
 	   var window_top = $(window).scrollTop();
-	   var div_top = $('#profile').offset().top + 30;
+	   var div_top = $('#profile').offset().top + 30 - headerHeight;
 
 	   
 
