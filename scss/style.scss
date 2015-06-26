@@ -24,6 +24,10 @@ $ls: 0.1em;
 	fill: currentColor;
 }
 
+body {
+	background: url("/img/background-large.jpg") no-repeat center center/cover fixed;
+}
+
 .primarytextcolor {
 	color: $primary_color;
 }
@@ -69,15 +73,6 @@ header {
 	height: 100vh;
 	min-height: 750px;
 	padding-top: 10%;
-	background-size: cover;
-	background: url("/img/background-large.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-attachment: fixed;
-	background-clip: border-box;
-	background-origin: padding-box;
-	background-color: #c0c0c0;
 	h1 {
 		@include text(2.1em, 300, $white);
 		max-width: 600px;
@@ -122,8 +117,15 @@ header {
 #profile {
 	float: left;
 	width: 100%;
-	padding-top: 90px;
-	margin-top: -90px;
+	background: #ffffff
+}
+
+#profile:before {
+	display: block; 
+	content: " "; 
+	margin-top: -90px; 
+	height: 90px; 
+	visibility: hidden;
 }
 
 .wide-container {
