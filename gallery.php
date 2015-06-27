@@ -1,5 +1,4 @@
-<?php include_once("elements/head.php"); ?>
-	<?php include_once("elements/header.php"); ?>
+<?php include_once("templates/template_header.php"); ?>
 	<div id="image-container">
 		
 		<!-- Move gallery code to separate module file -->
@@ -39,10 +38,4 @@
 		?>
 
 	</div>
-	<!--<?php include_once("elements/footer.php"); ?> -->
-	<script>
-		$(document).ready(function () {
-			$("#image-container").justifiedGallery();
-		});
-	</script>
-<?php include_once("elements/foot.php"); ?>
+<?php include_once("templates/template_footer.php"); ?>
