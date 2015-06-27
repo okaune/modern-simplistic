@@ -7,10 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 	<title>Ole Kristian Aune</title>
 	<meta name="author" content="Ole Kristian Aune">
-	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-	<link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
-	<link rel="stylesheet" href="bower_components/Justified-Gallery/dist/css/justifiedGallery.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<?php include_once('modules/module_styles.php'); ?>
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
