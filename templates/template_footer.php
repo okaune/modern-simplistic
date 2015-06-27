@@ -12,11 +12,17 @@
 <script>
   $(document).foundation();
 </script>
-<script src="js/min/scripts-min.js" type="text/javascript"></script>
+<script src="bower_components/Justified-Gallery/dist/js/jquery.justifiedGallery.js"></script>
 <script>
-	$(document).ready(function () {
-		$("#image-container").justifiedGallery();
-	});
+$("#image-container").justifiedGallery({
+	rowHeight : 200,
+	lastRow : 'justify',
+	captions : false,
+	margins : 3,
+	border : 0,
+	waitThumbnailsLoad : false
+});
 </script>
+<script src="js/min/scripts-min.js"></script>
 </body>
 </html>
