@@ -1,4 +1,4 @@
-<?php include_once("module/module_main_button.php"); ?>
+<?php include_once("module_main_button.php"); ?>
 
 <div class="front-menu">
 	<?php makeHeroButton("blog.php", "blog", "#icon-pencil", "Blogg"); ?>
