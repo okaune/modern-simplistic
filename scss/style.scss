@@ -1,5 +1,11 @@
 @import 'normalize';
+@import 'vendor/foundation';
 @import 'base';
+
+// Restructure css
+// This file should only include files
+// Make _global.scss
+// and module scss files (needs restructuring)
 
 $white: #ffffff;
 $black: #000000;
