@@ -7,6 +7,7 @@ Todo:
 
 Bugs:
 ---------
+* Gallery does not work
 * Height of #image-container is 0
 
 Backlog:
