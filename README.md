@@ -1,5 +1,14 @@
 # Modern Simplistic
 
+Todo:
+---------
+* Make module and template files (remove elements -> becomes either module or template)
+* Rename module folder "modules"
+
+Bugs:
+---------
+* Height of #image-container is 0
+
 Backlog:
 ---------
 * Blog
@@ -7,17 +16,5 @@ Backlog:
 * Implement Zurb Foundation
 * Make elements into modules, and separate more code to modules (eg. education)
 	* Use naming "module_(module_name)"
-
-Todo:
----------
 * Make responsive
 
-Bugs:
----------
-* Height of #image-container is 0
-
-In the works:
----------
-
-For testing:
----------

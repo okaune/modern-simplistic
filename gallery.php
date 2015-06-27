@@ -2,6 +2,7 @@
 	<?php include_once("elements/header.php"); ?>
 	<div id="image-container">
 		
+		<!-- Move gallery code to separate module file -->
 		<?php
 		// GET IMAGES IN ARRAY
 		$dir='img/gallery';

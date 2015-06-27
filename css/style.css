@@ -1,399 +1,142 @@
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-  display: block; }
+/*
+Error: Incompatible units: 'rem' and 'em'.
+        on line 269 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss, in `@content'
+        from line 19 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/_functions.scss, in `exports'
+        from line 187 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss
+        from line 35 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/vendor/_foundation.scss
+        from line 2 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/style.scss
 
-audio,
-canvas,
-video {
-  display: inline-block; }
-
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-[hidden], template {
-  display: none; }
-
-html {
-  background: #fff;
-  color: #000;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
-
-html,
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif; }
-
-body {
-  margin: 0; }
-
-a {
-  background: transparent; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover,
-  a:active {
-    outline: 0; }
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0; }
-
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0; }
-
-h4 {
-  font-size: 1em;
-  margin: 1.33em 0; }
-
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0; }
-
-h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0; }
-
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-b,
-strong {
-  font-weight: bold; }
-
-dfn {
-  font-style: italic; }
-
-mark {
-  background: #ff0;
-  color: #000; }
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em; }
-
-pre {
+Backtrace:
+/Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss:269:in `@content'
+/Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/_functions.scss:19:in `exports'
+/Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss:187
+/Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/vendor/_foundation.scss:35
+/Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/style.scss:2
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/value/number.rb:416:in `coercion_factor'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/value/number.rb:349:in `coerce'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/value/number.rb:397:in `operate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/value/number.rb:108:in `minus'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/operation.rb:82:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `block (2 levels) in visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `block in visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:298:in `visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:381:in `block (3 levels) in visit_content'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:381:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:381:in `block (2 levels) in visit_content'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:380:in `block in visit_content'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:376:in `visit_content'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `block (2 levels) in visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:299:in `block in visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:298:in `visit_if'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:363:in `block (4 levels) in visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:363:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:363:in `block (3 levels) in visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:363:in `block (2 levels) in visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:84:in `perform_arguments'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:358:in `block in visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:415:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
   white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word; }
-
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
-
-q:before,
-q:after {
-  content: '';
-  content: none; }
-
-small {
-  font-size: 80%; }
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sup {
-  top: -0.5em; }
-
-sub {
-  bottom: -0.25em; }
-
-img {
-  border: 0; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-figure {
-  margin: 0; }
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-legend {
-  border: 0;
-  padding: 0;
-  white-space: normal; }
-
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline; }
-
-button,
-input {
-  line-height: normal; }
-
-button,
-select {
-  text-transform: none; }
-
-button,
-html input[type="button"], input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer; }
-
-button[disabled],
-input[disabled] {
-  cursor: default; }
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0; }
-
-input[type="search"] {
-  -webkit-appearance: textfield;
-  box-sizing: content-box; }
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-button::-moz-focus-inner, input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
-
-textarea {
-  overflow: auto;
-  vertical-align: top; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-html {
-  font-size: 13px;
-  font-family: Helvetica Neue, sans-serif;
-  letter-spacing: 0.1em; }
-
-a {
-  text-decoration: none; }
-
-h4 {
-  font-size: 2em; }
-
-* {
-  -webkit-transition: all 0.2s;
-          transition: all 0.2s;
-  /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
-  /* Firefox 1 - 28 */
-  box-sizing: border-box;
-  /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */ }
-
-[class^="icon-"], [class*=" icon-"] {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  fill: currentColor; }
-
-body {
-  background: url("/img/background-large.jpg") no-repeat center center/cover fixed; }
-
-.primarytextcolor {
-  color: #e69400; }
-
-.more {
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  padding: 10px 20px;
-  background: #e69400;
-  width: 75px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #ffffff; }
-  .more:hover {
-    background: #3f3f3f; }
-
-header {
-  width: 100%;
-  background: #ffffff;
-  overflow: hidden;
-  position: fixed;
-  z-index: 99;
-  -webkit-transition: box-shadow 0.5s;
-          transition: box-shadow 0.5s; }
-  header a {
-    font-size: 1.3em;
-    font-weight: 800;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    height: 100%;
-    display: block;
-    line-height: 90px;
-    -webkit-transition: line-height 0.5s;
-            transition: line-height 0.5s; }
-
-#intro {
-  float: left;
-  width: 100%;
-  height: 100vh;
-  min-height: 750px;
-  padding-top: 10%; }
-  #intro h1 {
-    font-size: 2.1em;
-    font-weight: 300;
-    color: #ffffff;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center; }
-
-.dropshadow {
-  text-shadow: black 1px 1px 10px; }
-
-.front-menu {
-  max-width: 600px;
-  margin: 100px auto 0 auto;
-  text-align: center; }
-  .front-menu div {
-    font-size: 1.2em;
-    font-weight: 800;
-    color: #ffffff;
-    padding: 30px 0;
-    width: 200px;
-    background: #e69400;
-    display: block;
-    float: left;
-    margin: 0 50px;
-    text-transform: uppercase; }
-    .front-menu div:hover {
-      background: #3f3f3f; }
-  .front-menu .icon {
-    width: 200px; }
-
-#profile {
-  float: left;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.9); }
-
-#profile:before {
-  display: block;
-  content: " ";
-  margin-top: -90px;
-  height: 90px;
-  visibility: hidden; }
-
-.wide-container {
-  width: 1130px;
-  padding: 0 20px;
-  margin: 0px auto; }
-
-.justified-gallery {
-  overflow: visible !important;
-  top: 90px; }
-
-.resume {
-  max-width: 800px;
-  margin: 0 auto; }
-  .resume section {
-    display: block;
-    width: 100%;
-    float: left;
-    margin-top: 25px;
-    padding: 0; }
-  .resume aside {
-    float: left;
-    width: 15%;
-    color: #888888;
-    text-transform: uppercase;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    line-height: 15px; }
-    .resume aside h4 {
-      font-size: 1em; }
-  .resume article {
-    display: block;
-    float: right;
-    width: 85%;
-    margin-bottom: 10px; }
-    .resume article h3 {
-      font-size: 1.5em;
-      font-weight: 600;
-      color: #e69400;
-      line-height: 15px; }
-      .resume article h3 a {
-        font-size: 1em;
-        font-weight: 500;
-        color: #e69400;
-        text-decoration: none;
-        line-height: 0.7em; }
-      .resume article h3 .date {
-        font-size: 0.8em;
-        font-weight: "";
-        color: #888888;
-        margin-right: 20px;
-        padding: 0;
-        float: right; }
-    .resume article .role b {
-      font-size: 1.2em;
-      font-weight: 600;
-      color: #333; }
-    .resume article p {
-      line-height: 1.5em;
-      font-size: 1.2em;
-      font-weight: "";
-      color: #555; }
-
-footer {
-  min-height: 70px;
-  clear: both;
-  border-top: 1px solid #000000;
-  color: #ffffff; }
-  footer .wrapper {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px 0; }
-  footer .contact {
-    width: 100%;
-    line-height: 50px;
-    font-size: 14px;
-    text-align: center; }
-  footer .social {
-    width: 100%;
-    padding: 9px 0;
-    text-align: center; }
-    footer .social .icon-facebook-square, footer .social .icon-twitter-square, footer .social .icon-google-plus-square {
-      font-size: 32px;
-      color: #ffffff;
-      margin: 0 5px; }
-    footer .social .icon-facebook-square:hover {
-      color: #3b5998; }
-    footer .social .icon-twitter-square:hover {
-      color: #00aced; }
-    footer .social .icon-google-plus-square:hover {
-      color: #dd4b39; }
+  font-family: monospace;
+  content: "Error: Incompatible units: 'rem' and 'em'.\A         on line 269 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss, in `@content'\A         from line 19 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/_functions.scss, in `exports'\A         from line 187 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/bower_components/foundation/scss/foundation/components/_type.scss\A         from line 35 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/vendor/_foundation.scss\A         from line 2 of /Users/olekristianaune/Desktop/olekristian.com/2015/git/modern-simplistic/scss/style.scss"; }

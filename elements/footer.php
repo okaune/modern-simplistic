@@ -17,4 +17,9 @@
 	</div>
 </footer>
 <!-- Loading scripts at the end of the page -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
 <script src="js/min/scripts-min.js" type="text/javascript"></script>
