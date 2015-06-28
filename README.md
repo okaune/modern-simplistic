@@ -3,19 +3,20 @@
 Todo:
 ---------
 * Make module and template files (remove elements -> becomes either module or template)
-* Rename module folder "modules"
+	* Modules includes too much. Consider adding new category (eg. partials or part)
+* Rework css
+	* Global
+	* Each module have separate css
+	* Rework class naming convetion (.intro__p)
+* Implement Zurb Foundation
 
 Bugs:
 ---------
-* Gallery does not work
-* Height of #image-container is 0
+* Height of #image-container is 0 before browser width is updated
 
 Backlog:
 ---------
 * Blog
 	* Legg inn hva den skal inneholde
-* Implement Zurb Foundation
-* Make elements into modules, and separate more code to modules (eg. education)
-	* Use naming "module_(module_name)"
 * Make responsive
 
