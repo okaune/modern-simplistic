@@ -11,13 +11,9 @@
 	}
 
 	aside {
-		float: left;
-		width: 15%;
 		color: $gray;
 		text-transform: uppercase;
 		text-align: left;
-		margin: 0;
-		padding: 0;
 		line-height: 15px;
 		h4 {
 			font-size: 1em;
@@ -26,14 +22,10 @@
 
 	article {
 		display: block;
-		float: right;
-		width: 85%;
 		margin-bottom: 10px;
 		h3 {
 			@include text(1.5em, 600, $primary_color);
 			line-height: 15px;
-			// padding: 5px 5px 5px 0;
-			// margin: -5px 0 15px 0;
 			a {
 				@include text(1em, 500, $primary_color);
 				text-decoration: none;
